@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "🔥 Example Script Hub | Game 🔫",
-   LoadingTitle = "🔫 Gun Simulator 💥",
-   LoadingSubtitle = "by 1_F0",
+   Name = " War Military Tycoon",
+   LoadingTitle = "🔫 War Military Tycoon 💥",
+   LoadingSubtitle = "by Syntax",
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-   KeySystem = true, -- Set this to true to use our key system
+   KeySystem = false, --usally true -- Set this to true to use our key system
    KeySettings = {
       Title = "Key | Youtube Hub",
       Subtitle = "Key System",
